@@ -1,6 +1,21 @@
 title: "Quantitative Trading Bootcamp"
 description: "An intensive bootcamp for aspiring quantitative traders"
 theme: minima
+# remote_theme: pages-themes/minimal@v0.2.0
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+header_pages:
+  - index.md
+  - about.md
+  - schedule.md
+  - team.md
+  - faq.md
+
+minima:
+  skin: dark
 
 # Additional options
 markdown: kramdown
+
